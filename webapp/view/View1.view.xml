@@ -1,0 +1,27 @@
+<mvc:View controllerName="fragmentpractice.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="Employee Management">
+
+<content>
+
+<VBox class="sapUiMediumMargin" alignItems="Start">
+
+<Title text="Welcome to Employee Management" level="H2" />
+
+<Text text="Click below to view employee information." />
+
+<Button
+text="View Employee Details"
+type="Emphasized"
+press=".onOpenDialog"
+class="sapUiSmallMarginTop" 
+/>
+
+</VBox>
+
+</content>
+
+
+    </Page>
+</mvc:View>

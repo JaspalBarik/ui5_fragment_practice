@@ -1,0 +1,36 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+
+<Dialog
+id="employeeDialog"
+title="EmployeeInformation"
+contentWidth="25rem">
+
+<content>
+
+<VBox class="sapUiMediumMargin">
+
+<Title text="Employee Details" level="H3" />
+
+<Label text="Employee ID" />
+<Text text="EMP101" />
+
+<Label text="Employee Name" class="sapUiSmallMarginTop"/>
+<Text text="Rahul" />
+
+<Label text="Department" class="sapUiSmallMarginTop"/>
+<Text text="SAP Development" />
+
+</VBox>
+
+</content>
+
+<beginButton>
+<Button 
+text="OK" 
+type="Emphasized"
+press=".onCloseDialog"/>
+</beginButton>
+
+</Dialog>
+
+</core:FragmentDefinition>
